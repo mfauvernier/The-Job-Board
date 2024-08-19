@@ -5,7 +5,7 @@ import Jobs from "./components/Jobs";
 function App() {
   return (
     <>
-      <Header title="The Job Board" />
+      <Header />
       <Jobs />
       <footer>
         <p>
