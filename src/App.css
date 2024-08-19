@@ -1,0 +1,82 @@
+h1 {
+  color: white;
+  background-color: #333333;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 20px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 4px 0 4px;
+}
+
+.container {
+  width: 1020px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border: 1px red solid;
+  position: relative;
+}
+
+.infos {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.red {
+  border: 10px solid red;
+}
+
+.green {
+  border: 10px solid green;
+}
+
+.yellow {
+  border: 10px solid yellow;
+}
+
+.blue {
+  border: 10px solid blue;
+}
+
+.orange {
+  border: 10px solid orange;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+span {
+  font-weight: 700;
+}
